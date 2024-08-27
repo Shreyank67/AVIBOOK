@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+:root {
+    --primary-color: #3d5cb8;
+    --primary-color-dark: #334c99;
+    --text-dark: #0f172a;
+    --text-light: #64748b;
+    --extra-light: #f1f5f9;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --light-orange: #d46b6b;
+    --dark-bluesh: #223e52;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-heading {
+    background-image: url(img/background\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+}
+
+.page-direction-button a {
+    display: inline-block;
+    line-height: 60px;
+    width: 270px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: var(--light-orange);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+nav {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white);
+    align-items: center;
+    display: flex;
+
+}
+
+.contact-form {
+    margin-top: 100px;
+    background-image: url(img/background\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--dark-bluesh);
+    padding: 60px 0px;
+}
+
+.primary-button a {
+    text-decoration: none;
+    margin-top: 15px;
+    width: auto;
+    padding: 0px 18px;
+    height: 36px;
+    background-color: var(--light-orange);
+    font-size: 13px;
+    color: #121212;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+}
+
+footer .social-icons li a:hover {
+    background-color: var(--light-orange);
+    transition: 0.4s;
+}
